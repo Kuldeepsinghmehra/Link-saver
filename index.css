@@ -14,16 +14,16 @@ input {
 }
 
 button {
-    background: #5f9341;
+    background: #0E46A3;
     color: white;
     padding: 10px 20px;
-    border: 1px solid #5f9341;
+    border: 1px solid #0E46A3;
     font-weight: bold;
 }
 
 #delete-btn {
     background: white;
-    color: #5f9341;
+    color: #0E46A3;
 }
 
 ul {
@@ -38,10 +38,20 @@ li {
 
 a {
     color: #5f9341;
+   
+}
+.lead-item {
+    
+    position: relative;
+    height:40px;
+  
 }
 
-.delete-btn{
-    width: 60px;
+.delete-btn-item {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px
+    
 }
-
 
